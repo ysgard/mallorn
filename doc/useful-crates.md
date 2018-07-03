@@ -11,7 +11,7 @@ Mallorn.
 * strum - macros for working with strings and enums
 * error-chain
 * bitflags
-
+* spec - ECS crate
 
 # Notes
 

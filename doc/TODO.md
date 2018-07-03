@@ -1,9 +1,9 @@
 # Basic TODO List
 
-1. [ ] Get a blank, captioned 1024x800 window open
-1. [ ] Get that window to initialize and quit properly, set up a basic
+1. [x] Get a blank, captioned 1024x800 window open
+1. [x] Get that window to initialize and quit properly, set up a basic
        event loop.
-1. [ ] Capture keystrokes, implement simple logging
+1. [x] Capture keystrokes, implement simple logging
 1. [ ] Blit a '@' to the screen from a pixmap.
 1. [ ] Get that '@' to wander around the screen.
 1. [ ] Set up the map and its basic data structures in a separate
