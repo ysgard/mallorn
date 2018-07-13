@@ -3,17 +3,17 @@
 extern crate simplelog;
 extern crate sdl2;
 
-pub mod gfx;
-
 use sdl2::event::Event;
 use sdl2::keyboard::Keycode;
-
 use sdl2::pixels::Color;
 
 use std::thread;
 use std::time::Duration;
 
 use simplelog::*;
+
+pub mod gfx;
+use gfx::spritesheet::colors::*;
 
 const SCREEN_WIDTH: u32 = 1024;
 const SCREEN_HEIGHT: u32 = 800;
@@ -38,7 +38,7 @@ fn main() {
 
     let mut canvas = window.into_canvas().build().unwrap();
 
-    canvas.set_draw_color(Color::RGB(0, 0, 0));
+    canvas.set_draw_color(GREY);
     canvas.clear();
     canvas.present();
 
